@@ -1,7 +1,17 @@
+import Hero from "@/components/hero";
 import React from "react";
+import scaleImage from "../../../public/scale.jpg";
 
-const ScalePage = () => {
-	return <div>Scale Page</div>;
+const ReliabilityPage = () => {
+	return (
+		<div>
+			<Hero
+				imageAlt="steel factory"
+				imageData={scaleImage}
+				title="Scale your app to infinity"
+			/>
+		</div>
+	);
 };
 
-export default ScalePage;
+export default ReliabilityPage;

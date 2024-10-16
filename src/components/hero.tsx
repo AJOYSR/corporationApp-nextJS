@@ -18,8 +18,9 @@ const Hero = (props: HeroProps) => {
 					}}
 				/>
 			</div>
+			<div className="absolute inset-0 bg-gradient-to-r from-slate-900" />
 			<div className="pt-48 flex justify-center items-center">
-				<h1 className="text-white text-8xl">{props.title}</h1>
+				<h1 className="text-white text-6xl">{props.title}</h1>
 			</div>
 		</div>
 	);
